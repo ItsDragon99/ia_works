@@ -1,0 +1,202 @@
+### Ejercicio 1#:
+
+Valor de transicion:
+- Por lados 10
+- En diagnoral 14
+
+| 1<br>H=110<br>G=50<br>F=160<br><br> | ==H=100<br>G=54<br>F=154== | ==H=90<br>G=64<br>F=154== | ==H=80<br>G=80<br>F=160== | ==H=70<br>G=90<br>F=150== | H=60<br>G=100<br>F=160 |         |
+| ----------------------------------- | -------------------------- | ------------------------- | ------------------------- | ------------------------- | ---------------------- | ------- |
+| ==8<br>H=100<br>G=40<br>F=140==     | **x**                      | **x**                     | **x**                     | H=60<br>G=100<br>F=160    | H=50<br>G=104<br>F=154 |         |
+| ==15<br>H=90<br>G=30<br>F=120==     | H=80<br>G=34<br>F=114      | H=70<br>G=38<br>F=108     | **x**                     |                           | **x**                  |         |
+| ==22<br>H=80<br>G=20<br>F=100==     | H=70<br>G=24<br>F=94       | H=60<br>G=28<br>F=88      | **x**                     |                           |                        |         |
+| ==29<br>H=70<br>G=10<br>F=80==      | H=60<br>G=14<br>F=74       | **x**                     | **x**                     | **x**                     | **x**                  |         |
+| ==36== <br>==START==                | H=50<br>G=10<br>F=60       | H=40<br>G=20<br>F=60      | H=30<br>G=30<br>F=60      | H=20<br>G=30<br>F=50      | **x**                  | ==END== |
+### Ejercicio 2# A*:
+
+![[IMG_20250902_102021.jpg]]
+
+
+```mermaid
+graph TB
+    2((2)) --- 12((12))
+
+    1((1)) --- 3((3)) --- 11((11))
+
+    4((4)) --- 8((8)) --- 14((14))
+
+    5((5)) --- 7((7)) --- 10((10)) --- 13((13))
+
+    6((6)) --- 9((9))
+
+    1((1)) --25--> 3
+    1((1)) --10--> 4
+    1((1)) --30--> 5
+    1((1)) --80--> 6
+    1((1)) --50--> 2
+
+    2 --25--> 3
+    2 --50--> 8
+    2 --100--> 11
+    2 --82--> 12
+
+    3 --15--> 4
+    3 --25--> 5
+    3 --20--> 8
+
+    4 --10--> 5
+    4 --15--> 8
+    4 --20--> 7
+
+    5 --35--> 6
+    5 --10--> 7
+
+    6 --35--> 9
+
+    7 --25--> 8
+    7 --20--> 9
+    7 --30--> 10
+
+    8 --35--> 9
+    8 --30--> 10
+    8 --25--> 11
+
+    9 --30--> 10
+
+    10 --10--> 11
+    10 --15--> 13
+
+    11 --40--> 13
+    11 --35--> 14
+    11 --20--> 12
+
+    12 --15--> 14
+    13 --15--> 14
+
+```
+
+Ejercicio resuelto:
+
+![[1756831673842.jpg]]
+
+### Ejercicio 3#: Caballo
+
+
+| x0  |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     |     |     |     |
+|     |     | x   | x   | x   | x   |     |     |
+|     |     | x   |     |     | x   |     |     |
+|     |     | x   |     |     | x   |     |     |
+|     |     | x   | x   | x   | x   |     |     |
+|     |     |     |     |     |     |     |     |
+|     |     |     |     |     |     |     |     |
+
+### Ejercicio 4#: Cuadro magico
+
+15 por los lados (1-9)
+
+| 8   | 1   | 6   |
+| --- | --- | --- |
+| 3   | 5   | 7   |
+| 4   | 9   | 2   |
+### Ejercicio 5#: Canicas (Damas chinas)
+
+```mermaid
+stateDiagram-v2
+    [*] --> Inicio
+
+    state "Inicio\nVacío=13" as Inicio
+    state "Paso 1\n(15,14,13)" as P1
+    state "Paso 2\n(12,13,14)" as P2
+    state "Paso 3\n(6,9,13)" as P3
+    state "Paso 4\n(11,8,6)" as P4
+    state "Paso 5\n(3,5,8)" as P5
+    state "Paso 6\n(7,8,9)" as P6
+    state "Paso 7\n(10,9,8)" as P7
+    state "Paso 8\n(2,4,7)" as P8
+    state "Paso 9\n(14,13,12)" as P9
+    state "Paso 10\n(12,8,5)" as P10
+    state "Paso 11\n(6,5,4)" as P11
+    state "Paso 12\n(7,4,2)" as P12
+    state "Paso 13\n(1,2,4)" as P13
+
+    Inicio --> P1
+    P1 --> P2
+    P2 --> P3
+    P3 --> P4
+    P4 --> P5
+    P5 --> P6
+    P6 --> P7
+    P7 --> P8
+    P8 --> P9
+    P9 --> P10
+    P10 --> P11
+    P11 --> P12
+    P12 --> P13
+    P13 --> [*]
+
+
+```
+
+
+
+Python
+Sklearn
+OpenCv
+Keras
+
+
+## Tarea 1#: Dataset y balas.
+### 1. Dataset
+
+Los datos tienen la forma:
+
+`x   y   flag`
+
+- **x, y** → coordenadas de la bala.
+    
+- **flag (0/1)** → condición de seguridad o peligro.
+    
+    - `0` → la bala está en una posición **segura** (no amenaza inmediata).
+        
+    - `1` → la bala está en **zona de peligro** (puede colisionar con el sujeto).
+        
+
+Ejemplo:
+
+- Trayectoria en `y=389`:
+    
+    - Desde `x=690` hasta `x=159` el flag es `0` → la bala avanza sin ser peligrosa.
+        
+    - A partir de `x=146` el flag cambia a `1` → la bala entra en zona de peligro para el sujeto.
+        
+
+Esto se repite en las demás filas, mostrando distintos recorridos y momentos en que la bala se vuelve peligrosa.
+### 2. Máquina de Estados de la Bala
+
+#### Estados
+
+- **Movimiento (Fly)**  
+    La bala avanza en línea recta por el cuadrado.
+    
+- **Rebote (Bounce)**  
+    Cuando toca un borde, cambia su dirección.
+    
+- **Colisión (Hit)**  
+    Si entra en una posición con `flag = 1`, se considera que impacta en zona peligrosa.
+    
+- **Final (End)** _(opcional)_  
+    Si la bala desaparece tras el impacto.
+    
+
+#### Transiciones
+
+- Movimiento → Rebote: si alcanza un límite del cuadrado.
+    
+- Movimiento → Colisión: si entra en coordenada con `flag = 1`.
+    
+- Rebote → Movimiento: tras cambiar de dirección.
+    
+- Colisión → Movimiento: si la bala atraviesa y continúa.
+    
+- Colisión → Final: si se destruye tras impactar.
