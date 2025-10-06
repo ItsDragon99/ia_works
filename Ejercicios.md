@@ -146,57 +146,7 @@ OpenCv
 Keras
 
 
-## Tarea 1#: Dataset y balas.
-### 1. Dataset
 
-Los datos tienen la forma:
 
-`x   y   flag`
 
-- **x, y** → coordenadas de la bala.
-    
-- **flag (0/1)** → condición de seguridad o peligro.
-    
-    - `0` → la bala está en una posición **segura** (no amenaza inmediata).
-        
-    - `1` → la bala está en **zona de peligro** (puede colisionar con el sujeto).
-        
 
-Ejemplo:
-
-- Trayectoria en `y=389`:
-    
-    - Desde `x=690` hasta `x=159` el flag es `0` → la bala avanza sin ser peligrosa.
-        
-    - A partir de `x=146` el flag cambia a `1` → la bala entra en zona de peligro para el sujeto.
-        
-
-Esto se repite en las demás filas, mostrando distintos recorridos y momentos en que la bala se vuelve peligrosa.
-### 2. Máquina de Estados de la Bala
-
-#### Estados
-
-- **Movimiento (Fly)**  
-    La bala avanza en línea recta por el cuadrado.
-    
-- **Rebote (Bounce)**  
-    Cuando toca un borde, cambia su dirección.
-    
-- **Colisión (Hit)**  
-    Si entra en una posición con `flag = 1`, se considera que impacta en zona peligrosa.
-    
-- **Final (End)** _(opcional)_  
-    Si la bala desaparece tras el impacto.
-    
-
-#### Transiciones
-
-- Movimiento → Rebote: si alcanza un límite del cuadrado.
-    
-- Movimiento → Colisión: si entra en coordenada con `flag = 1`.
-    
-- Rebote → Movimiento: tras cambiar de dirección.
-    
-- Colisión → Movimiento: si la bala atraviesa y continúa.
-    
-- Colisión → Final: si se destruye tras impactar.
