@@ -1,0 +1,517 @@
+{"instruction":"¿Qué es un algoritmo?","response":"Es un conjunto de pasos ordenados y finitos que resuelven un problema."}
+{"instruction":"Define variable","response":"Una variable es un espacio de memoria donde se almacena un valor."}
+{"instruction":"¿Para qué sirve un ciclo?","response":"Sirve para repetir un bloque de instrucciones varias veces."}
+{"instruction":"Explica if","response":"La estructura if permite ejecutar código solo si una condición es verdadera."}
+{"instruction":"¿Qué es pseudocódigo?","response":"Es una forma informal de describir un algoritmo usando lenguaje cercano al humano."}
+{"instruction":"Ejemplo simple de suma","response":"Leer a y b, sumar a+b y mostrar el resultado."}
+{"instruction":"¿Qué es una condición lógica?","response":"Es una expresión que puede evaluarse como verdadera o falsa."}
+{"instruction":"Define entrada de un algoritmo","response":"Son los datos que el algoritmo recibe para procesar."}
+{"instruction":"Define salida de un algoritmo","response":"Es el resultado producido tras ejecutar el algoritmo."}
+{"instruction":"¿Qué es un ciclo for?","response":"Es un ciclo usado cuando se conoce el número de repeticiones."}
+{"instruction":"¿Qué es un ciclo while?","response":"Es un ciclo que se repite mientras una condición sea verdadera."}
+{"instruction":"Diferencia entre for y while","response":"For se usa con repeticiones conocidas, while con condiciones variables."}
+{"instruction":"¿Qué es un operador lógico?","response":"Es un operador que combina o niega condiciones, como AND u OR."}
+{"instruction":"¿Qué es un operador relacional?","response":"Compara dos valores, como mayor que, menor que o igual."}
+{"instruction":"Explica == y =","response":"== compara valores, = asigna un valor a una variable."}
+{"instruction":"¿Qué es un arreglo?","response":"Es una estructura que almacena varios valores del mismo tipo."}
+{"instruction":"Ejemplo de arreglo","response":"Un arreglo de números puede ser: [1, 2, 3, 4]."}
+{"instruction":"¿Qué es un índice?","response":"Es la posición que ocupa un elemento dentro de un arreglo."}
+{"instruction":"¿Qué es una función?","response":"Es un bloque de código reutilizable que realiza una tarea específica."}
+{"instruction":"Ventaja de usar funciones","response":"Permiten reutilizar código y mejorar la organización."}
+{"instruction":"¿Qué es un parámetro?","response":"Es un valor que se pasa a una función para su ejecución."}
+{"instruction":"¿Qué es retorno?","response":"Es el valor que una función devuelve al terminar."}
+{"instruction":"Explica recursión","response":"Es cuando una función se llama a sí misma para resolver un problema."}
+{"instruction":"Ejemplo de recursión","response":"Calcular factorial llamando a la función con n-1."}
+{"instruction":"¿Qué es un caso base?","response":"Es la condición que detiene la recursión."}
+{"instruction":"¿Qué es un contador?","response":"Es una variable que lleva el conteo de repeticiones."}
+{"instruction":"¿Qué es un acumulador?","response":"Es una variable que suma resultados parciales."}
+{"instruction":"Diferencia contador y acumulador","response":"El contador incrementa de uno en uno, el acumulador suma valores."}
+{"instruction":"¿Qué es una iteración?","response":"Es una repetición individual dentro de un ciclo."}
+{"instruction":"Define algoritmo secuencial","response":"Es un algoritmo donde las instrucciones se ejecutan en orden."}
+{"instruction":"Define algoritmo condicional","response":"Es un algoritmo que toma decisiones según condiciones."}
+{"instruction":"Define algoritmo repetitivo","response":"Es un algoritmo que repite instrucciones usando ciclos."}
+{"instruction":"¿Qué es complejidad?","response":"Es una medida del uso de tiempo o memoria de un algoritmo."}
+{"instruction":"¿Qué es complejidad temporal?","response":"Mide cuánto tiempo tarda un algoritmo en ejecutarse."}
+{"instruction":"¿Qué es complejidad espacial?","response":"Mide cuánta memoria utiliza un algoritmo."}
+{"instruction":"Explica O(1)","response":"Es complejidad constante, no depende del tamaño de entrada."}
+{"instruction":"Explica O(n)","response":"El tiempo crece proporcionalmente al tamaño de entrada."}
+{"instruction":"¿Qué es un error lógico?","response":"Es cuando el programa corre pero produce resultados incorrectos."}
+{"instruction":"¿Qué es un error sintáctico?","response":"Es un error en la escritura del código."}
+{"instruction":"¿Qué es depurar?","response":"Es el proceso de encontrar y corregir errores."}
+{"instruction":"¿Qué es un diagrama de flujo?","response":"Es una representación gráfica de un algoritmo."}
+{"instruction":"Símbolo de decisión","response":"El rombo representa una decisión lógica."}
+{"instruction":"Símbolo de inicio","response":"El óvalo representa el inicio o fin del algoritmo."}
+{"instruction":"¿Qué es una variable booleana?","response":"Es una variable que solo puede ser verdadera o falsa."}
+{"instruction":"Ejemplo de booleano","response":"Verdadero o falso según una condición."}
+{"instruction":"¿Qué es una constante?","response":"Es un valor que no cambia durante la ejecución."}
+{"instruction":"¿Qué es casting?","response":"Es convertir un tipo de dato en otro."}
+{"instruction":"Ejemplo de casting","response":"Convertir un número decimal a entero."}
+{"instruction":"¿Qué es entrada por teclado?","response":"Es cuando el usuario proporciona datos al programa."}
+{"instruction":"¿Qué es salida por pantalla?","response":"Es mostrar información al usuario."}
+{"instruction":"Define algoritmo eficiente","response":"Es el que resuelve el problema con menos recursos."}
+{"instruction":"¿Qué es un problema computacional?","response":"Es una tarea que puede resolverse mediante un algoritmo."}
+{"instruction":"¿Qué es un caso de prueba?","response":"Es un conjunto de datos para verificar un algoritmo."}
+{"instruction":"¿Qué es validación?","response":"Es comprobar que los datos de entrada sean correctos."}
+{"instruction":"¿Qué es modularidad?","response":"Es dividir un programa en partes pequeñas y manejables."}
+{"instruction":"Ventaja de modularidad","response":"Facilita mantenimiento y comprensión del código."}
+{"instruction":"¿Qué es una traza?","response":"Es el seguimiento paso a paso de un algoritmo."}
+{"instruction":"¿Qué es un bucle infinito?","response":"Es un ciclo que nunca termina."}
+{"instruction":"¿Cómo evitar bucle infinito?","response":"Asegurando que la condición cambie y se vuelva falsa."}
+{"instruction":"¿Qué es un algoritmo determinista?","response":"Siempre produce el mismo resultado con la misma entrada."}
+{"instruction":"¿Qué es un algoritmo no determinista?","response":"Puede producir resultados diferentes con la misma entrada."}
+{"instruction":"¿Qué es una tabla de verdad?","response":"Muestra los resultados de expresiones lógicas."}
+{"instruction":"¿Qué es AND lógico?","response":"Es verdadero solo si ambas condiciones son verdaderas."}
+{"instruction":"¿Qué es OR lógico?","response":"Es verdadero si al menos una condición es verdadera."}
+{"instruction":"¿Qué es NOT lógico?","response":"Invierte el valor lógico de una condición."}
+{"instruction":"¿Qué es un lenguaje de programación?","response":"Es un medio para escribir algoritmos ejecutables."}
+{"instruction":"¿Qué es interpretación?","response":"Es ejecutar el código línea por línea."}
+{"instruction":"¿Qué es compilación?","response":"Es traducir todo el código antes de ejecutarlo."}
+{"instruction":"¿Qué es un bloque de código?","response":"Es un conjunto de instrucciones agrupadas."}
+{"instruction":"¿Qué es indentación?","response":"Es el uso de espacios para organizar el código."}
+{"instruction":"¿Por qué es importante la indentación?","response":"Mejora la lectura y puede afectar la ejecución."}
+{"instruction":"¿Qué es una precondición?","response":"Es algo que debe cumplirse antes de ejecutar el algoritmo."}
+{"instruction":"¿Qué es una postcondición?","response":"Es el resultado esperado tras ejecutar el algoritmo."}
+{"instruction":"¿Qué es un algoritmo correcto?","response":"Es el que produce resultados válidos para todas las entradas."}
+{"instruction":"¿Qué es un algoritmo incompleto?","response":"No cubre todos los casos posibles."}
+{"instruction":"¿Qué es un problema mal definido?","response":"No tiene entradas, salidas o reglas claras."}
+{"instruction":"Primer paso al resolver un problema","response":"Entender claramente el problema."}
+{"instruction":"Segundo paso al resolver un problema","response":"Diseñar el algoritmo antes de programar."}
+{"instruction":"Tercer paso al resolver un problema","response":"Probar el algoritmo con distintos casos."}
+{"instruction":"¿Qué es una estructura de datos?","response":"Es una forma organizada de almacenar y gestionar datos."}
+{"instruction":"¿Qué es una lista enlazada?","response":"Es una colección de nodos donde cada uno apunta al siguiente."}
+{"instruction":"Ventaja de listas enlazadas","response":"Permiten inserciones y eliminaciones eficientes."}
+{"instruction":"Desventaja de listas enlazadas","response":"El acceso a elementos no es directo."}
+{"instruction":"¿Qué es una pila?","response":"Es una estructura LIFO donde el último elemento entra primero sale."}
+{"instruction":"Operación push","response":"Inserta un elemento en la cima de la pila."}
+{"instruction":"Operación pop","response":"Elimina el elemento en la cima de la pila."}
+{"instruction":"¿Qué es una cola?","response":"Es una estructura FIFO donde el primero en entrar es el primero en salir."}
+{"instruction":"Aplicación de colas","response":"Se usan en sistemas de turnos y procesos."}
+{"instruction":"¿Qué es un nodo?","response":"Es un elemento que almacena datos y referencias."}
+{"instruction":"¿Qué es un árbol?","response":"Es una estructura jerárquica compuesta por nodos."}
+{"instruction":"¿Qué es un árbol binario?","response":"Es un árbol donde cada nodo tiene máximo dos hijos."}
+{"instruction":"¿Qué es la raíz de un árbol?","response":"Es el nodo principal del árbol."}
+{"instruction":"¿Qué es una hoja?","response":"Es un nodo sin hijos."}
+{"instruction":"¿Qué es un recorrido inorder?","response":"Visita izquierda, nodo y derecha."}
+{"instruction":"¿Qué es un recorrido preorder?","response":"Visita nodo, izquierda y derecha."}
+{"instruction":"¿Qué es un recorrido postorder?","response":"Visita izquierda, derecha y nodo."}
+{"instruction":"¿Qué es una búsqueda lineal?","response":"Busca un elemento recorriendo uno por uno."}
+{"instruction":"Complejidad de búsqueda lineal","response":"Tiene complejidad O(n)."}
+{"instruction":"¿Qué es búsqueda binaria?","response":"Busca dividiendo el arreglo ordenado en mitades."}
+{"instruction":"Requisito de búsqueda binaria","response":"El arreglo debe estar ordenado."}
+{"instruction":"Complejidad de búsqueda binaria","response":"Tiene complejidad O(log n)."}
+{"instruction":"¿Qué es ordenamiento?","response":"Es el proceso de organizar datos según un criterio."}
+{"instruction":"¿Qué es bubble sort?","response":"Es un algoritmo que intercambia elementos adyacentes."}
+{"instruction":"Complejidad de bubble sort","response":"Tiene complejidad O(n²)."}
+{"instruction":"¿Qué es selection sort?","response":"Selecciona el mínimo y lo coloca en su posición."}
+{"instruction":"¿Qué es insertion sort?","response":"Inserta elementos en su posición correcta."}
+{"instruction":"Ventaja de insertion sort","response":"Es eficiente con listas pequeñas."}
+{"instruction":"¿Qué es quicksort?","response":"Ordena dividiendo el arreglo usando un pivote."}
+{"instruction":"Complejidad promedio de quicksort","response":"Tiene complejidad O(n log n)."}
+{"instruction":"¿Qué es mergesort?","response":"Divide el arreglo y luego mezcla ordenadamente."}
+{"instruction":"Ventaja de mergesort","response":"Siempre tiene complejidad O(n log n)."}
+{"instruction":"¿Qué es recursión indirecta?","response":"Cuando una función llama a otra que la vuelve a llamar."}
+{"instruction":"¿Qué es descomposición del problema?","response":"Es dividir un problema grande en subproblemas."}
+{"instruction":"¿Qué es divide y vencerás?","response":"Es una técnica basada en dividir, resolver y combinar."}
+{"instruction":"¿Qué es un grafo?","response":"Es una estructura formada por nodos y aristas."}
+{"instruction":"¿Qué es un vértice?","response":"Es un nodo dentro de un grafo."}
+{"instruction":"¿Qué es una arista?","response":"Es la conexión entre dos vértices."}
+{"instruction":"¿Qué es un grafo dirigido?","response":"Es un grafo donde las aristas tienen dirección."}
+{"instruction":"¿Qué es un grafo no dirigido?","response":"Es un grafo sin dirección en sus aristas."}
+{"instruction":"¿Qué es BFS?","response":"Es un recorrido de grafo por niveles."}
+{"instruction":"¿Qué es DFS?","response":"Es un recorrido que profundiza antes de retroceder."}
+{"instruction":"¿Qué es una matriz de adyacencia?","response":"Representa conexiones mediante una matriz."}
+{"instruction":"¿Qué es una lista de adyacencia?","response":"Representa conexiones mediante listas por nodo."}
+{"instruction":"¿Qué es programación dinámica?","response":"Optimiza problemas guardando resultados previos."}
+{"instruction":"¿Qué es memoización?","response":"Es almacenar resultados para evitar cálculos repetidos."}
+{"instruction":"¿Qué es tabulación?","response":"Es resolver problemas de abajo hacia arriba."}
+{"instruction":"¿Qué es un subproblema?","response":"Es una parte más pequeña del problema original."}
+{"instruction":"¿Qué es backtracking?","response":"Explora soluciones y retrocede si falla."}
+{"instruction":"Ejemplo de backtracking","response":"Resolver un laberinto o sudoku."}
+{"instruction":"¿Qué es un algoritmo voraz?","response":"Toma la mejor decisión local en cada paso."}
+{"instruction":"Ejemplo de algoritmo voraz","response":"Seleccionar monedas de mayor valor primero."}
+{"instruction":"¿Qué es una heurística?","response":"Es una estrategia aproximada para resolver problemas."}
+{"instruction":"¿Qué es un problema NP?","response":"Es un problema cuya solución se verifica rápido."}
+{"instruction":"¿Qué es un problema NP-completo?","response":"Es uno de los problemas más difíciles de NP."}
+{"instruction":"¿Qué es un conjunto?","response":"Es una colección sin elementos repetidos."}
+{"instruction":"¿Qué es una tabla hash?","response":"Es una estructura que asocia claves a valores."}
+{"instruction":"Ventaja de tablas hash","response":"Permiten acceso rápido a datos."}
+{"instruction":"¿Qué es una colisión?","response":"Cuando dos claves producen el mismo índice."}
+{"instruction":"¿Qué es rehashing?","response":"Es reorganizar la tabla para reducir colisiones."}
+{"instruction":"¿Qué es un puntero?","response":"Es una variable que almacena direcciones de memoria."}
+{"instruction":"¿Qué es memoria dinámica?","response":"Es memoria asignada durante la ejecución."}
+{"instruction":"¿Qué es una referencia?","response":"Es una forma indirecta de acceder a un dato."}
+{"instruction":"¿Qué es encapsulamiento?","response":"Oculta detalles internos y expone solo lo necesario."}
+{"instruction":"¿Qué es abstracción?","response":"Representa solo las características importantes."}
+{"instruction":"¿Qué es reutilización de código?","response":"Usar código existente para nuevos problemas."}
+{"instruction":"¿Qué es prueba de escritorio?","response":"Simular manualmente la ejecución del algoritmo."}
+{"instruction":"¿Qué es un algoritmo estable?","response":"Mantiene el orden de elementos iguales."}
+{"instruction":"¿Qué es un algoritmo inestable?","response":"Puede cambiar el orden de elementos iguales."}
+{"instruction":"¿Qué es overflow?","response":"Cuando un valor excede el límite permitido."}
+{"instruction":"¿Qué es underflow?","response":"Cuando se intenta extraer de una estructura vacía."}
+{"instruction":"¿Qué es un sentinel?","response":"Es un valor especial que indica final de datos."}
+{"instruction":"¿Qué es entrada inválida?","response":"Es un dato que no cumple los requisitos esperados."}
+{"instruction":"¿Qué es robustez?","response":"Capacidad de manejar errores correctamente."}
+{"instruction":"¿Qué es escalabilidad?","response":"Capacidad de funcionar bien con más datos."}
+{"instruction":"¿Qué es un algoritmo iterativo?","response":"Resuelve el problema usando ciclos."}
+{"instruction":"¿Qué es un algoritmo recursivo?","response":"Resuelve el problema llamándose a sí mismo."}
+{"instruction":"¿Qué es una precondición lógica?","response":"Es una condición que debe cumplirse antes del algoritmo."}
+{"instruction":"¿Qué es una postcondición lógica?","response":"Es la condición que debe cumplirse al finalizar."}
+{"instruction":"¿Qué es análisis de algoritmos?","response":"Es el estudio del rendimiento de un algoritmo."}
+{"instruction":"¿Qué es el peor caso?","response":"Es el escenario donde el algoritmo tarda más."}
+{"instruction":"¿Qué es el mejor caso?","response":"Es el escenario donde el algoritmo tarda menos."}
+{"instruction":"¿Qué es el caso promedio?","response":"Es el rendimiento esperado del algoritmo."}
+{"instruction":"¿Qué es notación Big O?","response":"Describe el crecimiento del tiempo o espacio."}
+{"instruction":"¿Qué es notación Omega?","response":"Representa el límite inferior del crecimiento."}
+{"instruction":"¿Qué es notación Theta?","response":"Indica un crecimiento exacto."}
+{"instruction":"¿Qué es un algoritmo polinomial?","response":"Tiene complejidad expresable como polinomio."}
+{"instruction":"¿Qué es un algoritmo exponencial?","response":"Su tiempo crece exponencialmente con la entrada."}
+{"instruction":"¿Qué es un árbol balanceado?","response":"Tiene alturas similares en ambos subárboles."}
+{"instruction":"¿Qué es un árbol desbalanceado?","response":"Tiene ramas con alturas muy diferentes."}
+{"instruction":"¿Qué es un AVL?","response":"Es un árbol binario balanceado automáticamente."}
+{"instruction":"¿Qué es un heap?","response":"Es un árbol que mantiene una propiedad de orden."}
+{"instruction":"¿Qué es un max-heap?","response":"El nodo raíz es el valor máximo."}
+{"instruction":"¿Qué es un min-heap?","response":"El nodo raíz es el valor mínimo."}
+{"instruction":"¿Qué es heap sort?","response":"Es un algoritmo de ordenamiento basado en heaps."}
+{"instruction":"Complejidad de heap sort","response":"Tiene complejidad O(n log n)."}
+{"instruction":"¿Qué es un camino en grafos?","response":"Es una secuencia de vértices conectados."}
+{"instruction":"¿Qué es un ciclo en grafos?","response":"Es un camino que regresa al nodo inicial."}
+{"instruction":"¿Qué es un grafo conexo?","response":"Todos los nodos están conectados."}
+{"instruction":"¿Qué es un grafo no conexo?","response":"Tiene nodos aislados o componentes separados."}
+{"instruction":"¿Qué es un grafo ponderado?","response":"Las aristas tienen un peso asociado."}
+{"instruction":"¿Qué es Dijkstra?","response":"Es un algoritmo para caminos mínimos."}
+{"instruction":"Requisito de Dijkstra","response":"No debe haber pesos negativos."}
+{"instruction":"¿Qué es Bellman-Ford?","response":"Calcula caminos mínimos con pesos negativos."}
+{"instruction":"¿Qué es Floyd-Warshall?","response":"Calcula caminos mínimos entre todos los nodos."}
+{"instruction":"¿Qué es un árbol generador?","response":"Conecta todos los nodos sin formar ciclos."}
+{"instruction":"¿Qué es Kruskal?","response":"Construye árboles generadores mínimos."}
+{"instruction":"¿Qué es Prim?","response":"Expande el árbol tomando la arista mínima."}
+{"instruction":"¿Qué es un componente conexo?","response":"Subgrafo donde todos los nodos están conectados."}
+{"instruction":"¿Qué es una pila de llamadas?","response":"Es la estructura que gestiona llamadas recursivas."}
+{"instruction":"¿Qué es desbordamiento de pila?","response":"Ocurre cuando hay demasiadas llamadas recursivas."}
+{"instruction":"¿Qué es tail recursion?","response":"La llamada recursiva es la última instrucción."}
+{"instruction":"Ventaja de tail recursion","response":"Puede optimizar uso de memoria."}
+{"instruction":"¿Qué es una relación de recurrencia?","response":"Describe el tiempo de ejecución recursivo."}
+{"instruction":"Ejemplo de recurrencia","response":"T(n)=T(n-1)+c."}
+{"instruction":"¿Qué es el método maestro?","response":"Resuelve recurrencias de divide y vencerás."}
+{"instruction":"¿Qué es una tabla DP?","response":"Almacena soluciones de subproblemas."}
+{"instruction":"¿Qué es solapamiento de subproblemas?","response":"Subproblemas se repiten varias veces."}
+{"instruction":"¿Qué es optimal substructure?","response":"La solución óptima depende de subsoluciones óptimas."}
+{"instruction":"¿Qué es el problema de la mochila?","response":"Selecciona objetos maximizando valor."}
+{"instruction":"¿Qué es LIS?","response":"Subsecuencia creciente más larga."}
+{"instruction":"¿Qué es LCS?","response":"Subsecuencia común más larga."}
+{"instruction":"¿Qué es un algoritmo aproximado?","response":"Da soluciones cercanas al óptimo."}
+{"instruction":"¿Qué es una cota de error?","response":"Es el margen aceptable de desviación."}
+{"instruction":"¿Qué es un problema de optimización?","response":"Busca la mejor solución posible."}
+{"instruction":"¿Qué es un problema de decisión?","response":"La respuesta es sí o no."}
+{"instruction":"¿Qué es un problema de búsqueda?","response":"Busca una solución específica."}
+{"instruction":"¿Qué es una solución factible?","response":"Cumple todas las restricciones."}
+{"instruction":"¿Qué es una solución óptima?","response":"Es la mejor entre las factibles."}
+{"instruction":"¿Qué es una poda?","response":"Evita explorar soluciones innecesarias."}
+{"instruction":"¿Qué es branch and bound?","response":"Optimiza búsqueda usando podas."}
+{"instruction":"¿Qué es un estado?","response":"Representa una configuración del problema."}
+{"instruction":"¿Qué es un espacio de estados?","response":"Conjunto de todos los estados posibles."}
+{"instruction":"¿Qué es BFS en árboles?","response":"Recorre el árbol por niveles."}
+{"instruction":"¿Qué es DFS en árboles?","response":"Explora una rama completa antes de regresar."}
+{"instruction":"¿Qué es una cola de prioridad?","response":"Extrae elementos según prioridad."}
+{"instruction":"¿Qué es lazy evaluation?","response":"Evalúa solo cuando es necesario."}
+{"instruction":"¿Qué es eager evaluation?","response":"Evalúa inmediatamente."}
+{"instruction":"¿Qué es paralelismo?","response":"Ejecutar tareas simultáneamente."}
+{"instruction":"¿Qué es concurrencia?","response":"Gestionar múltiples tareas a la vez."}
+{"instruction":"¿Qué es una condición de carrera?","response":"Acceso simultáneo produce errores."}
+{"instruction":"¿Qué es sincronización?","response":"Controla acceso concurrente a recursos."}
+{"instruction":"¿Qué es un deadlock?","response":"Procesos quedan bloqueados mutuamente."}
+{"instruction":"¿Qué es un algoritmo greedy incorrecto?","response":"No siempre produce la solución óptima."}
+{"instruction":"¿Qué es una invariante?","response":"Condición que se mantiene durante ejecución."}
+{"instruction":"¿Qué es prueba de corrección?","response":"Demuestra que el algoritmo funciona siempre."}
+{"instruction":"¿Qué es un límite inferior?","response":"Tiempo mínimo necesario para resolver un problema."}
+{"instruction":"¿Qué es reducción de problemas?","response":"Transformar un problema en otro conocido."}
+{"instruction":"¿Qué es un algoritmo exacto?","response":"Siempre produce la solución óptima."}
+{"instruction":"¿Qué es un algoritmo probabilístico?","response":"Usa aleatoriedad en su ejecución."}
+{"instruction":"¿Qué es Monte Carlo?","response":"Algoritmo probabilístico con error aceptable."}
+{"instruction":"¿Qué es Las Vegas?","response":"Algoritmo probabilístico siempre correcto."}
+{"instruction":"¿Qué es una cota superior?","response":"Límite máximo del crecimiento."}
+{"instruction":"¿Qué es una entrada adversa?","response":"Entrada diseñada para empeorar rendimiento."}
+{"instruction":"¿Qué es complejidad amortizada?","response":"Promedio de costo en múltiples operaciones."}
+{"instruction":"¿Qué es análisis amortizado?","response":"Evalúa costo promedio a largo plazo."}
+{"instruction":"¿Qué es teoría de la computación?","response":"Estudia qué problemas pueden resolverse mediante algoritmos."}
+{"instruction":"¿Qué es un modelo computacional?","response":"Es una abstracción que define cómo se computa."}
+{"instruction":"¿Qué es una máquina de Turing?","response":"Modelo teórico que define la computación general."}
+{"instruction":"¿Qué es una cinta infinita?","response":"Es la memoria ilimitada de la máquina de Turing."}
+{"instruction":"¿Qué es un estado en Turing?","response":"Representa la configuración actual de la máquina."}
+{"instruction":"¿Qué es un lenguaje formal?","response":"Es un conjunto de cadenas bien definidas."}
+{"instruction":"¿Qué es un autómata finito?","response":"Modelo que reconoce lenguajes regulares."}
+{"instruction":"¿Qué es un autómata determinista?","response":"Tiene una única transición por símbolo."}
+{"instruction":"¿Qué es un autómata no determinista?","response":"Puede tener múltiples transiciones posibles."}
+{"instruction":"¿Qué es un lenguaje regular?","response":"Lenguaje reconocido por autómatas finitos."}
+{"instruction":"¿Qué es una expresión regular?","response":"Describe patrones de cadenas en lenguajes regulares."}
+{"instruction":"¿Qué es una gramática?","response":"Define reglas para generar un lenguaje."}
+{"instruction":"¿Qué es una gramática libre de contexto?","response":"Genera lenguajes más complejos que los regulares."}
+{"instruction":"¿Qué es un parser?","response":"Analiza la estructura sintáctica de una entrada."}
+{"instruction":"¿Qué es ambigüedad en gramáticas?","response":"Una cadena tiene múltiples derivaciones."}
+{"instruction":"¿Qué es decidibilidad?","response":"Capacidad de determinar solución en tiempo finito."}
+{"instruction":"¿Qué es un problema indecidible?","response":"No existe algoritmo que lo resuelva siempre."}
+{"instruction":"Ejemplo de problema indecidible","response":"El problema de la parada."}
+{"instruction":"¿Qué es la clase P?","response":"Problemas resolubles en tiempo polinomial."}
+{"instruction":"¿Qué es la clase NP?","response":"Problemas verificables en tiempo polinomial."}
+{"instruction":"¿Qué significa P ⊆ NP?","response":"Todo problema en P está en NP."}
+{"instruction":"¿Qué es NP-duro?","response":"Es tan difícil como cualquier problema en NP."}
+{"instruction":"¿Qué es una reducción polinomial?","response":"Transforma un problema en otro en tiempo polinomial."}
+{"instruction":"¿Para qué sirven las reducciones?","response":"Para demostrar dificultad computacional."}
+{"instruction":"¿Qué es SAT?","response":"Problema de satisfacibilidad booleana."}
+{"instruction":"¿Por qué SAT es importante?","response":"Fue el primer problema NP-completo probado."}
+{"instruction":"¿Qué es 3-SAT?","response":"SAT con cláusulas de tres literales."}
+{"instruction":"¿Qué es Clique?","response":"Busca un subgrafo completamente conectado."}
+{"instruction":"¿Qué es Vertex Cover?","response":"Selecciona vértices que cubren todas las aristas."}
+{"instruction":"¿Qué es Hamiltoniano?","response":"Camino que visita cada vértice una vez."}
+{"instruction":"¿Qué es TSP?","response":"Problema del viajante con distancia mínima."}
+{"instruction":"¿Qué es verificación?","response":"Comprobar una solución dada."}
+{"instruction":"¿Qué es certificación?","response":"Prueba que valida una solución."}
+{"instruction":"¿Qué es un verificador NP?","response":"Verifica soluciones en tiempo polinomial."}
+{"instruction":"¿Qué es co-NP?","response":"Complemento de problemas en NP."}
+{"instruction":"¿Qué es una cota inferior fuerte?","response":"Límite mínimo difícil de mejorar."}
+{"instruction":"¿Qué es optimalidad local?","response":"Solución óptima en vecindad cercana."}
+{"instruction":"¿Qué es optimalidad global?","response":"Mejor solución en todo el espacio."}
+{"instruction":"¿Qué es un algoritmo pseudo-polinomial?","response":"Depende del valor numérico de la entrada."}
+{"instruction":"¿Qué es aproximación PTAS?","response":"Aproxima con error controlado polinomial."}
+{"instruction":"¿Qué es FPT?","response":"Algoritmos eficientes para parámetros pequeños."}
+{"instruction":"¿Qué es parametrización?","response":"Separar complejidad por parámetros."}
+{"instruction":"¿Qué es kernelización?","response":"Reducir el tamaño del problema."}
+{"instruction":"¿Qué es un invariante de ciclo?","response":"Condición verdadera en cada iteración."}
+{"instruction":"¿Para qué sirve un invariante?","response":"Demuestra corrección de ciclos."}
+{"instruction":"¿Qué es corrección parcial?","response":"Si termina, el resultado es correcto."}
+{"instruction":"¿Qué es corrección total?","response":"Es correcto y siempre termina."}
+{"instruction":"¿Qué es terminación?","response":"Garantía de que el algoritmo finaliza."}
+{"instruction":"¿Qué es ranking function?","response":"Función que demuestra terminación."}
+{"instruction":"¿Qué es prueba por inducción?","response":"Demuestra propiedades para todos los casos."}
+{"instruction":"¿Qué es inducción estructural?","response":"Se basa en la estructura de datos."}
+{"instruction":"¿Qué es un contraejemplo?","response":"Caso que invalida una afirmación."}
+{"instruction":"¿Qué es soundness?","response":"El algoritmo no acepta soluciones incorrectas."}
+{"instruction":"¿Qué es completeness?","response":"El algoritmo acepta todas las soluciones correctas."}
+{"instruction":"¿Qué es verificación formal?","response":"Uso de matemáticas para validar algoritmos."}
+{"instruction":"¿Qué es model checking?","response":"Verifica propiedades de sistemas."}
+{"instruction":"¿Qué es un sistema transicional?","response":"Modelo basado en estados y transiciones."}
+{"instruction":"¿Qué es una propiedad de seguridad?","response":"Evita estados peligrosos."}
+{"instruction":"¿Qué es una propiedad de vivacidad?","response":"Garantiza que algo bueno ocurra."}
+{"instruction":"¿Qué es refinamiento?","response":"Transformar especificaciones en algoritmos."}
+{"instruction":"¿Qué es abstracción algorítmica?","response":"Simplificar sin perder propiedades clave."}
+{"instruction":"¿Qué es un algoritmo offline?","response":"Procesa datos completos antes de responder."}
+{"instruction":"¿Qué es un algoritmo online?","response":"Toma decisiones sin conocer el futuro."}
+{"instruction":"¿Qué es competitive ratio?","response":"Mide desempeño de algoritmos online."}
+{"instruction":"¿Qué es una estrategia adversaria?","response":"Intenta empeorar el rendimiento."}
+{"instruction":"¿Qué es un lower bound adversario?","response":"Límite usando entradas adversas."}
+{"instruction":"¿Qué es un algoritmo distribuido?","response":"Corre en múltiples nodos coordinados."}
+{"instruction":"¿Qué es consenso?","response":"Todos los nodos acuerdan un valor."}
+{"instruction":"¿Qué es tolerancia a fallos?","response":"Resistir errores en el sistema."}
+{"instruction":"¿Qué es Byzantine fault?","response":"Fallo con comportamiento arbitrario."}
+{"instruction":"¿Qué es latencia algorítmica?","response":"Tiempo hasta producir una respuesta."}
+{"instruction":"¿Qué es throughput?","response":"Cantidad de trabajo por unidad de tiempo."}
+{"instruction":"¿Qué es balance carga?","response":"Distribuir trabajo equitativamente."}
+{"instruction":"¿Qué es una especificación formal?","response":"Descripción matemática del comportamiento."}
+{"instruction":"¿Qué es un contrato de software?","response":"Define pre y postcondiciones."}
+{"instruction":"¿Qué es una prueba de imposibilidad?","response":"Demuestra que algo no puede hacerse."}
+{"instruction":"¿Qué es Church-Turing?","response":"Todo cálculo efectivo es computable."}
+{"instruction":"¿Qué es una jerarquía computacional?","response":"Clasifica problemas por dificultad."}
+{"instruction":"¿Qué es una frontera de complejidad?","response":"Límite entre clases computacionales."}
+{"instruction":"Explica por qué un algoritmo termina","response":"Porque en cada paso progresa hacia una condición de parada."}
+{"instruction":"Identifica el error en un ciclo sin incremento","response":"La variable de control nunca cambia, el ciclo no termina."}
+{"instruction":"¿Cómo justificarías un algoritmo en un examen?","response":"Explicando idea, pasos, corrección y complejidad."}
+{"instruction":"Explica la idea central de divide y vencerás","response":"Resolver subproblemas pequeños y combinar soluciones."}
+{"instruction":"¿Cuándo conviene usar programación dinámica?","response":"Cuando hay subproblemas repetidos y estructura óptima."}
+{"instruction":"Detecta el fallo en una recursión infinita","response":"Falta o no se alcanza el caso base."}
+{"instruction":"Explica cómo probar corrección de un algoritmo","response":"Usando invariantes y razonamiento inductivo."}
+{"instruction":"¿Qué indica una complejidad incorrecta?","response":"Que el análisis no considera todos los casos."}
+{"instruction":"Evalúa si un algoritmo greedy es correcto","response":"Comprobando que decisiones locales llevan al óptimo."}
+{"instruction":"Explica un error común en búsqueda binaria","response":"No actualizar correctamente los límites."}
+{"instruction":"¿Cómo mejorar claridad en una explicación?","response":"Usando pasos cortos y ejemplos simples."}
+{"instruction":"¿Qué revisar primero si el resultado es incorrecto?","response":"Las condiciones y actualizaciones de variables."}
+{"instruction":"Explica cómo comparar dos algoritmos","response":"Analizando complejidad y uso de memoria."}
+{"instruction":"¿Qué indica un tiempo excesivo?","response":"Complejidad alta o implementación deficiente."}
+{"instruction":"Detecta error en condición mal formulada","response":"La comparación no refleja el caso esperado."}
+{"instruction":"¿Cómo explicarías una pila a un principiante?","response":"Como una torre donde se quita lo último puesto."}
+{"instruction":"¿Cómo explicarías una cola a un principiante?","response":"Como una fila donde pasa primero el que llega primero."}
+{"instruction":"¿Qué pregunta harías para validar comprensión?","response":"Pedir que expliquen el algoritmo con sus palabras."}
+{"instruction":"Explica un algoritmo con ejemplo mínimo","response":"Mostrar el caso más simple primero."}
+{"instruction":"¿Qué indica un off-by-one error?","response":"Error al manejar índices o límites."}
+{"instruction":"Corrige un límite incorrecto en un for","response":"Ajustar inicio o fin para cubrir todos los elementos."}
+{"instruction":"¿Cómo guiarías a un alumno atorado?","response":"Haciendo preguntas dirigidas, no dando la solución."}
+{"instruction":"Explica por qué ordenar antes de buscar","response":"Permite usar búsqueda binaria eficiente."}
+{"instruction":"¿Qué revisar si hay segmentation fault?","response":"Accesos fuera de límites o punteros nulos."}
+{"instruction":"Explica por qué DFS usa pila","response":"Porque profundiza antes de retroceder."}
+{"instruction":"Explica por qué BFS usa cola","response":"Porque recorre por niveles."}
+{"instruction":"¿Qué indica una solución parcial?","response":"No cubre todos los casos del problema."}
+{"instruction":"Evalúa si un algoritmo escala bien","response":"Probando con entradas grandes."}
+{"instruction":"Explica cómo optimizar memoria","response":"Reutilizando variables y evitando estructuras innecesarias."}
+{"instruction":"¿Qué error hay si no se valida entrada?","response":"El algoritmo puede fallar o producir basura."}
+{"instruction":"Explica cuándo usar recursión","response":"Cuando el problema se define naturalmente de forma recursiva."}
+{"instruction":"Explica cuándo evitar recursión","response":"Si puede causar desbordamiento de pila."}
+{"instruction":"¿Qué revisar en una solución incorrecta de DP?","response":"Transiciones y valores iniciales."}
+{"instruction":"Explica un fallo típico en grafos","response":"No marcar nodos visitados correctamente."}
+{"instruction":"¿Cómo detectar ciclos en grafos?","response":"Usando DFS y marcas de estado."}
+{"instruction":"Explica por qué Dijkstra falla con negativos","response":"Porque asume que distancias no disminuyen."}
+{"instruction":"Evalúa si un algoritmo es estable","response":"Verificando el orden de elementos iguales."}
+{"instruction":"Explica cómo depurar paso a paso","response":"Siguiendo la traza con valores concretos."}
+{"instruction":"¿Qué es una prueba de caja negra?","response":"Probar sin conocer la implementación."}
+{"instruction":"¿Qué es una prueba de caja blanca?","response":"Probar con conocimiento del código."}
+{"instruction":"Explica por qué modularizar ayuda","response":"Reduce errores y mejora mantenimiento."}
+{"instruction":"¿Qué indica código duplicado?","response":"Falta de abstracción."}
+{"instruction":"Explica cómo refactorizar","response":"Mejorar estructura sin cambiar comportamiento."}
+{"instruction":"¿Qué revisar en un TLE?","response":"Complejidad y bucles innecesarios."}
+{"instruction":"Explica cómo justificar Big O","response":"Contando operaciones dominantes."}
+{"instruction":"Detecta error en condición de parada","response":"No se alcanza para ciertos casos."}
+{"instruction":"¿Cómo enseñarías complejidad a novatos?","response":"Comparando tiempos con entradas grandes."}
+{"instruction":"Explica la diferencia entre solución y algoritmo","response":"El algoritmo es el método, la solución el resultado."}
+{"instruction":"Evalúa una solución incompleta","response":"Buscar casos no cubiertos."}
+{"instruction":"¿Qué indica uso excesivo de memoria?","response":"Estructuras innecesarias o copias."}
+{"instruction":"Explica por qué documentar código","response":"Facilita comprensión y mantenimiento."}
+{"instruction":"¿Cómo explicarías grafos sin fórmulas?","response":"Como mapas de puntos y caminos."}
+{"instruction":"Explica el objetivo de un invariante","response":"Garantizar corrección durante ejecución."}
+{"instruction":"¿Qué revisar si un algoritmo no termina?","response":"Condiciones de salida y progresión."}
+{"instruction":"Explica cómo validar resultados","response":"Probando casos normales y extremos."}
+{"instruction":"¿Qué es un caso límite?","response":"Entrada mínima o máxima posible."}
+{"instruction":"Evalúa claridad de una respuesta","response":"Debe ser precisa, breve y ordenada."}
+{"instruction":"Explica cómo mejorar una mala solución","response":"Identificando cuellos de botella."}
+{"instruction":"¿Qué indica lógica confusa?","response":"Falta de estructura o pasos claros."}
+{"instruction":"Explica cómo enseñar recursión","response":"Usando ejemplos pequeños y visuales."}
+{"instruction":"¿Qué revisar en una condición compuesta?","response":"Operadores lógicos mal usados."}
+{"instruction":"Explica por qué fallan soluciones intuitivas","response":"Ignoran casos no evidentes."}
+{"instruction":"Evalúa si un algoritmo es correcto","response":"Verificando todos los escenarios posibles."}
+{"instruction":"Explica cómo detectar redundancia","response":"Buscar cálculos repetidos."}
+{"instruction":"¿Qué indica una solución elegante?","response":"Es simple, clara y eficiente."}
+{"instruction":"Explica por qué probar antes de entregar","response":"Evita errores evidentes."}
+{"instruction":"¿Cómo responderías si no sabes la solución?","response":"Explicando el enfoque parcial y limitaciones."}
+{"instruction":"Explica el rol de ejemplos en enseñanza","response":"Aterrizan conceptos abstractos."}
+{"instruction":"Evalúa si una explicación es pedagógica","response":"Debe guiar, no solo mostrar."}
+{"instruction":"Explica cómo cerrar una respuesta de examen","response":"Resumiendo idea y resultado."}
+{"instruction":"¿Qué es retroalimentación efectiva?","response":"Señala errores y cómo corregirlos."}
+{"instruction":"Explica cómo adaptar nivel de explicación","response":"Según el conocimiento del estudiante."}
+{"instruction":"¿Qué indica un razonamiento sólido?","response":"Cada paso tiene justificación clara."}
+{"instruction":"Explica el objetivo de un tutor inteligente","response":"Guiar el aprendizaje de forma personalizada."}
+{"instruction":"Explica un algoritmo con lenguaje sencillo","response":"Describe los pasos como si se los contaras a alguien sin experiencia."}
+{"instruction":"¿Cómo simplificar un problema complejo?","response":"Dividiéndolo en partes pequeñas y manejables."}
+{"instruction":"Identifica un error conceptual común","response":"Confundir la idea del algoritmo con su implementación."}
+{"instruction":"Explica por qué planear antes de codificar","response":"Reduce errores y mejora la solución final."}
+{"instruction":"¿Qué indica una solución sobrecomplicada?","response":"Que no se entendió bien el problema."}
+{"instruction":"Explica la importancia del orden de pasos","response":"Un paso fuera de lugar puede cambiar el resultado."}
+{"instruction":"Detecta error por mal uso de variables","response":"La variable no representa lo que se espera."}
+{"instruction":"Explica cómo verificar un resultado","response":"Comparándolo con casos simples conocidos."}
+{"instruction":"¿Qué hacer si el algoritmo falla en un caso?","response":"Analizar ese caso y ajustar la lógica."}
+{"instruction":"Explica el valor de ejemplos visuales","response":"Facilitan entender procesos abstractos."}
+{"instruction":"¿Qué indica confusión entre datos y procesos?","response":"Falta de claridad en el diseño."}
+{"instruction":"Explica cuándo usar tablas auxiliares","response":"Cuando se repiten cálculos o consultas."}
+{"instruction":"Detecta error en inicialización","response":"La variable comienza con un valor incorrecto."}
+{"instruction":"Explica por qué documentar cada paso","response":"Ayuda a entender y depurar después."}
+{"instruction":"¿Qué revisar si el algoritmo da resultados aleatorios?","response":"Uso incorrecto de variables o estados."}
+{"instruction":"Explica la diferencia entre idea y código","response":"La idea es conceptual, el código es su traducción."}
+{"instruction":"Evalúa si una explicación es clara","response":"Debe seguir una secuencia lógica."}
+{"instruction":"Explica por qué probar con datos pequeños","response":"Permite detectar errores rápidamente."}
+{"instruction":"Detecta error en actualización de estado","response":"El estado no refleja el paso anterior."}
+{"instruction":"Explica cómo enseñar con preguntas","response":"Guiando al alumno a descubrir la respuesta."}
+{"instruction":"¿Qué indica un algoritmo frágil?","response":"Falla ante entradas ligeramente distintas."}
+{"instruction":"Explica la importancia de casos extremos","response":"Revelan errores ocultos."}
+{"instruction":"Detecta error en comparación","response":"El operador lógico no es el adecuado."}
+{"instruction":"Explica por qué repetir lógica es mala práctica","response":"Aumenta errores y dificulta mantenimiento."}
+{"instruction":"¿Qué hacer si no entiendes un algoritmo?","response":"Reescribirlo paso a paso con tus palabras."}
+{"instruction":"Explica cómo validar supuestos","response":"Comprobándolos con ejemplos reales."}
+{"instruction":"Detecta error en control de flujo","response":"Las decisiones no siguen el orden correcto."}
+{"instruction":"Explica cuándo usar estructuras auxiliares","response":"Cuando simplifican la lógica principal."}
+{"instruction":"¿Qué indica una variable mal nombrada?","response":"Puede causar confusión en el razonamiento."}
+{"instruction":"Explica cómo detectar redundancia","response":"Buscar operaciones repetidas innecesarias."}
+{"instruction":"Evalúa si un algoritmo es legible","response":"Debe entenderse sin comentarios excesivos."}
+{"instruction":"Explica la importancia de consistencia","response":"Evita errores y facilita comprensión."}
+{"instruction":"Detecta error por mala condición inicial","response":"El algoritmo arranca en un estado inválido."}
+{"instruction":"Explica cómo enseñar paso a paso","response":"Avanzando solo cuando el anterior está claro."}
+{"instruction":"¿Qué indica una solución poco general?","response":"Solo funciona para casos específicos."}
+{"instruction":"Explica por qué abstraer ayuda","response":"Reduce complejidad mental."}
+{"instruction":"Detecta error por confusión de índices","response":"Se accede a posiciones incorrectas."}
+{"instruction":"Explica cómo mejorar una explicación técnica","response":"Usando analogías simples."}
+{"instruction":"¿Qué revisar si el algoritmo es lento?","response":"Bucles anidados o cálculos repetidos."}
+{"instruction":"Explica cuándo usar una simulación","response":"Cuando el proceso es difícil de imaginar."}
+{"instruction":"Detecta error por mala actualización","response":"El valor no cambia como se espera."}
+{"instruction":"Explica cómo justificar una decisión algorítmica","response":"Mostrando por qué es correcta y eficiente."}
+{"instruction":"¿Qué indica una solución elegante?","response":"Resuelve el problema con simplicidad."}
+{"instruction":"Explica por qué evitar magia en el código","response":"Valores sin explicación confunden."}
+{"instruction":"Detecta error por dependencia oculta","response":"El algoritmo depende de un estado no evidente."}
+{"instruction":"Explica cómo revisar lógica condicional","response":"Analizando cada rama por separado."}
+{"instruction":"¿Qué indica falta de pruebas?","response":"Alta probabilidad de errores."}
+{"instruction":"Explica la importancia de consistencia lógica","response":"Evita contradicciones internas."}
+{"instruction":"Detecta error por mal orden de evaluación","response":"Las condiciones se revisan en orden incorrecto."}
+{"instruction":"Explica cómo enseñar algoritmos a principiantes","response":"Con ejemplos cotidianos y simples."}
+{"instruction":"¿Qué indica una solución rígida?","response":"No se adapta a cambios de requisitos."}
+{"instruction":"Explica cuándo refactorizar","response":"Cuando el código funciona pero es confuso."}
+{"instruction":"Detecta error por uso indebido de memoria","response":"Se guardan datos innecesarios."}
+{"instruction":"Explica cómo mejorar comprensión","response":"Repitiendo la idea con distintas palabras."}
+{"instruction":"¿Qué revisar si hay resultados inconsistentes?","response":"Estados compartidos o variables globales."}
+{"instruction":"Explica por qué el orden importa en algoritmos","response":"Cambia el estado final del sistema."}
+{"instruction":"Detecta error por suposición incorrecta","response":"La entrada no cumple lo esperado."}
+{"instruction":"Explica cómo guiar sin dar la respuesta","response":"Dando pistas progresivas."}
+{"instruction":"¿Qué indica una explicación apresurada?","response":"Falta de claridad conceptual."}
+{"instruction":"Explica la importancia de ejemplos negativos","response":"Muestran cuándo falla una solución."}
+{"instruction":"Detecta error por falta de validación","response":"Se aceptan datos inválidos."}
+{"instruction":"Explica cómo estructurar una respuesta","response":"Introducción, desarrollo y cierre."}
+{"instruction":"¿Qué indica un razonamiento incompleto?","response":"Faltan pasos o justificación."}
+{"instruction":"Explica cómo entrenar pensamiento algorítmico","response":"Practicando descomposición y lógica."}
+{"instruction":"Detecta error por confundir causa y efecto","response":"La relación lógica está invertida."}
+{"instruction":"Explica el rol del tutor inteligente","response":"Acompañar, guiar y corregir el aprendizaje."}
+{"instruction":"Explica por qué un algoritmo puede ser correcto pero ineficiente","response":"Resuelve el problema, pero usa demasiados recursos."}
+{"instruction":"¿Cómo detectar un cuello de botella?","response":"Identificando la parte que más tiempo consume."}
+{"instruction":"Explica la diferencia entre idea correcta y código incorrecto","response":"La lógica es válida, pero la implementación falla."}
+{"instruction":"Detecta error por uso incorrecto de condición compuesta","response":"Los operadores lógicos no reflejan la intención."}
+{"instruction":"Explica cuándo usar un enfoque iterativo","response":"Cuando la recursión no es necesaria o es costosa."}
+{"instruction":"¿Qué indica dependencia excesiva entre variables?","response":"Falta de modularidad."}
+{"instruction":"Explica cómo reducir complejidad temporal","response":"Eliminando bucles innecesarios o usando mejores estructuras."}
+{"instruction":"Detecta error por no reiniciar variables","response":"Valores anteriores afectan nuevas ejecuciones."}
+{"instruction":"Explica la importancia del caso mínimo","response":"Verifica que el algoritmo funcione desde lo más simple."}
+{"instruction":"¿Qué revisar si un algoritmo falla solo a veces?","response":"Estados compartidos o condiciones límite."}
+{"instruction":"Explica cómo enseñar análisis de complejidad","response":"Comparando crecimiento con ejemplos grandes."}
+{"instruction":"Detecta error por comparación incorrecta","response":"Se usa < en lugar de <= o viceversa."}
+{"instruction":"Explica por qué validar supuestos iniciales","response":"Evita errores desde el inicio."}
+{"instruction":"¿Qué indica código difícil de explicar?","response":"Diseño deficiente o lógica confusa."}
+{"instruction":"Explica cómo guiar a un alumno perdido","response":"Retrocediendo al último paso claro."}
+{"instruction":"Detecta error por confusión de tipos","response":"Se mezclan datos incompatibles."}
+{"instruction":"Explica la diferencia entre optimizar y sobreoptimizar","response":"Optimizar mejora, sobreoptimizar complica sin beneficio."}
+{"instruction":"¿Qué revisar si hay resultados duplicados?","response":"Control de ciclos y condiciones."}
+{"instruction":"Explica por qué separar entrada, proceso y salida","response":"Aclara la estructura del algoritmo."}
+{"instruction":"Detecta error por falta de limpieza de estado","response":"Datos antiguos interfieren con nuevos cálculos."}
+{"instruction":"Explica cómo evaluar una solución alternativa","response":"Comparando claridad y eficiencia."}
+{"instruction":"¿Qué indica una condición siempre verdadera?","response":"El algoritmo nunca toma otra rama."}
+{"instruction":"Explica cómo enseñar detección de errores","response":"Mostrando ejemplos incorrectos."}
+{"instruction":"Detecta error por mal uso de índices","response":"Se accede fuera del rango válido."}
+{"instruction":"Explica la importancia de comentarios claros","response":"Ayudan a entender la intención del código."}
+{"instruction":"¿Qué revisar si el algoritmo no escala?","response":"Complejidad y estructuras usadas."}
+{"instruction":"Explica cuándo usar una estructura más compleja","response":"Cuando reduce tiempo o simplifica lógica."}
+{"instruction":"Detecta error por dependencia del orden de entrada","response":"El algoritmo asume un orden específico."}
+{"instruction":"Explica cómo entrenar pensamiento paso a paso","response":"Resolviendo problemas incrementalmente."}
+{"instruction":"¿Qué indica una solución frágil?","response":"Falla ante pequeños cambios."}
+{"instruction":"Explica por qué probar casos extremos","response":"Revelan fallos ocultos."}
+{"instruction":"Detecta error por no actualizar condición","response":"El ciclo no progresa."}
+{"instruction":"Explica cómo mejorar legibilidad","response":"Usando nombres claros y bloques pequeños."}
+{"instruction":"¿Qué revisar si hay resultados inconsistentes?","response":"Variables globales o estados compartidos."}
+{"instruction":"Explica la diferencia entre solución válida y óptima","response":"La óptima usa menos recursos."}
+{"instruction":"Detecta error por suposición no documentada","response":"El código depende de algo implícito."}
+{"instruction":"Explica cómo enseñar corrección","response":"Justificando cada paso lógico."}
+{"instruction":"¿Qué indica una rama nunca ejecutada?","response":"Condición incorrecta."}
+{"instruction":"Explica por qué dividir en funciones","response":"Facilita pruebas y mantenimiento."}
+{"instruction":"Detecta error por uso indebido de memoria","response":"Se guardan datos que no se usan."}
+{"instruction":"Explica cómo analizar un fallo","response":"Reproduciendo el caso que lo causa."}
+{"instruction":"¿Qué revisar si el algoritmo es impredecible?","response":"Uso de estados no controlados."}
+{"instruction":"Explica la importancia de consistencia en nombres","response":"Evita confusión en el razonamiento."}
+{"instruction":"Detecta error por orden incorrecto de operaciones","response":"Las dependencias no se respetan."}
+{"instruction":"Explica cómo justificar una mejora","response":"Mostrando reducción de complejidad."}
+{"instruction":"¿Qué indica una solución difícil de mantener?","response":"Falta de modularidad."}
+{"instruction":"Explica cuándo reescribir un algoritmo","response":"Cuando es correcto pero incomprensible."}
+{"instruction":"Detecta error por no cubrir todos los casos","response":"Faltan ramas de decisión."}
+{"instruction":"Explica cómo enseñar con analogías","response":"Relacionando con situaciones cotidianas."}
+{"instruction":"¿Qué revisar si el algoritmo produce basura?","response":"Inicialización y validación de datos."}
+{"instruction":"Explica la diferencia entre error y excepción","response":"El error rompe, la excepción se maneja."}
+{"instruction":"Detecta error por uso incorrecto de acumulador","response":"No se reinicia o suma mal."}
+{"instruction":"Explica cómo evaluar claridad algorítmica","response":"Si otro puede explicarlo fácilmente."}
+{"instruction":"¿Qué indica una solución poco flexible?","response":"No admite cambios de requisitos."}
+{"instruction":"Explica por qué aislar lógica compleja","response":"Facilita pruebas y correcciones."}
+{"instruction":"Detecta error por dependencia circular","response":"Las variables dependen entre sí."}
+{"instruction":"Explica cómo guiar sin resolver","response":"Dando pistas graduales."}
+{"instruction":"¿Qué revisar si el algoritmo parece correcto pero falla?","response":"Casos límite no considerados."}
+{"instruction":"Explica la importancia del razonamiento formal","response":"Reduce errores y ambigüedades."}
+{"instruction":"Detecta error por uso incorrecto de operadores","response":"La lógica no coincide con la intención."}
+{"instruction":"Explica cómo cerrar una explicación técnica","response":"Resumiendo idea y resultado."}
+{"instruction":"¿Qué indica una solución bien diseñada?","response":"Es clara, correcta y eficiente."}
+{"instruction":"Explica el papel del tutor inteligente","response":"Guiar el razonamiento, no solo dar respuestas."}

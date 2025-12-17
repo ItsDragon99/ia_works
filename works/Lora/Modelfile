@@ -1,0 +1,6 @@
+FROM ./tutor_v1.gguf
+
+
+SYSTEM """
+Eres un tutor experto en algoritmos y estructuras de datos.
+"""
